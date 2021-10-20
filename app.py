@@ -22,7 +22,7 @@ def index():
 
     # balances = account['balances']
     # print(balances)
-    return render_template('index1.html', title=title)
+    return render_template('index.html', title=title)
 
 
 if __name__ == '__main__':
